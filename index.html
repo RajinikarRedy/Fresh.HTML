@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon</title>
+
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: rgba(207, 240, 240, 0.956);
+        display: flex;
+        align-items: center;
+        height: 80px;
+    }
+
+    .img {
+        width: 70px;
+        padding-right: 25px;
+    }
+
+    .search {
+
+        padding: 0px 25px;
+        display: flex;
+        align-items: center;
+        width: 220px;
+        /* border-radius: 11000px; */
+    }
+
+    .adress {
+        font-size: 15px;
+        padding: 0px 25px;
+    }
+
+    .button {
+        border: solid rgb(14, 0, 0) 3px;
+        border-radius: 5px;
+    }
+
+    nav,
+    ul,
+    li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        padding: 0px 25px;
+
+    }
+
+    nav,
+    ul,
+    li :hover {
+        color: rgb(229, 19, 19);
+        font-weight: bolder;
+
+    }
+
+    .selective {
+        padding: 0px 35px;
+    }
+
+    .footer1 {
+        background-color: rgb(27, 37, 49);
+        color: beige;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer1 {
+        text-align: center;
+
+
+    }
+
+    .slide {
+        /* display: flex;
+        justify-content: center; */
+        /* height: px;
+        width: 10;
+        border-radius: 5px;
+        background-color: antiquewhite; */
+    }
+
+    .box {
+        /* background-color: rgb(75, 26, 26); */
+        padding: 0px 45px;
+        height: 280px;
+        max-width: 90vw;
+        margin: auto;
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-block-end: auto;
+       
+
+
+    }
+
+    .pera {
+        font-size: small;
+        text-align: center;
+        width: 210px;
+
+    }
+
+    div.heading {
+        padding: 10px 25px;
+        background-color: rgba(127, 255, 212, 0.203);
+
+    }
+
+    .tectcenterdis {
+        background-color: rgb(255, 85, 0);
+        border-radius: 3px;
+        /* margin-top: 8px; */
+    }
+
+    .tectcenterdis:hover {
+        background-color: aquamarine;
+        color: rgb(61, 47, 255);
+        font-weight: bolder;
+
+    }
+
+    .tectcenterdiss:hover {
+        margin-top: 3px;
+        color: rgb(229, 19, 19);
+        font-weight: bolder;
+    }
+
+    .footer2 {
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 75px;
+        margin-left: 35px;
+
+    }
+
+    .footer {
+        background-color: rgb(35, 48, 63);
+        color: beige;
+    }
+    .footer3{
+        background-color: rgb(35, 48, 63);
+        color: beige;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .line,p{
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+        padding: 5px;
+
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="img">
+                <img src="../amazoon.jfif" alt="" width="90px">
+            </div>
+            <div class="adress">
+                Delivering to Hyderabad 500001 <br>
+                Update location
+            </div>
+            <div class="search">
+                <input type="search" placeholder=" search here" width="250px">
+            </div>
+            <div class="selective">
+                <select name="En" id="">
+                    <option value="En">English</option>
+                    <option value="En">Hindi</option>
+                    <option value="En">Tamil</option>
+                </select>
+            </div>
+            <div class="button"><button>search</button></div>
+            <div class="home">
+                <ul>
+                    <li>
+                        <button>Login</button>
+                    </li>
+                    <li> <a href=""> Home</a> </li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <div class="slide">
+            <img src="../slide.jpg" alt="" width="1520px">
+        </div>
+        <div class="heading">
+            <h3>Todays Deals</h3>
+        </div>
+        <div class="container">
+            
+        <div class="box">
+            <div class="image">
+              <a href="https://www.amazon.in/dp/B0CSPKJGK1/ref=va_live_carousel?pf_rd_r=PM7B0BFAP4Z693T3RCFK&pf_rd_p=3555962c-8da1-4126-859a-d0272a50490c&pf_rd_m=A21TJRUUN4KGV&pf_rd_t=Gateway&pf_rd_i=desktop&pf_rd_s=desktop-6&pd_rd_w=ePtC5&pd_rd_r=b0e0a151-9345-4d4f-b08e-d0221d0dce02&pd_rd_wg=FmKZm&pd_rd_i=B0CSPKJGK1&th=1&psc=1">                 <img src="https://images-na.ssl-images-amazon.com/images/I/41Q3CLqKoaL._SX240_QL100_AC_SCLZZZZZZZ_.jpg" alt="" width="200vw" height="200px">
+              </a>
+            </div>
+            <div class="pera">
+                <p class="tectcenterdis">Up to 75% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <a href="https://www.amazon.in/dp/B0CFQD4SJT/ref=va_live_carousel?pf_rd_r=PM7B0BFAP4Z693T3RCFK&pf_rd_p=3555962c-8da1-4126-859a-d0272a50490c&pf_rd_m=A21TJRUUN4KGV&pf_rd_t=Gateway&pf_rd_i=desktop&pf_rd_s=desktop-6&pd_rd_w=ePtC5&pd_rd_r=b0e0a151-9345-4d4f-b08e-d0221d0dce02&pd_rd_wg=FmKZm&pd_rd_i=B0CFQD4SJT&th=1&psc=1">            <img src="https://images-na.ssl-images-amazon.com/images/I/41XBs4IEw3L._SX240_QL100_AC_SCLZZZZZZZ_.jpg" alt="" width="200vw" height="200px">
+            </a>
+            <div class="pera">
+                <p class="tectcenterdis">Up to 39% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+</nav>
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <a href="https://www.amazon.in/dp/B0C27P5PZ9/ref=va_live_carousel?pf_rd_r=PM7B0BFAP4Z693T3RCFK&pf_rd_p=3555962c-8da1-4126-859a-d0272a50490c&pf_rd_m=A21TJRUUN4KGV&pf_rd_t=Gateway&pf_rd_i=desktop&pf_rd_s=desktop-6&pd_rd_w=ePtC5&pd_rd_r=b0e0a151-9345-4d4f-b08e-d0221d0dce02&pd_rd_wg=FmKZm&pd_rd_i=B0C27P5PZ9&th=1&psc=1">            <img src="https://images-na.ssl-images-amazon.com/images/I/41vysarwAHL._SX240_QL100_AC_SCLZZZZZZZ_.jpg" alt="" width="200vw" height="200px">
+            </a>
+            <div class="pera">
+                <p class="tectcenterdis">Up to 19% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <a href="https://www.amazon.in/dp/B0CGND2MC2/ref=va_live_carousel?pf_rd_r=PM7B0BFAP4Z693T3RCFK&pf_rd_p=3555962c-8da1-4126-859a-d0272a50490c&pf_rd_m=A21TJRUUN4KGV&pf_rd_t=Gateway&pf_rd_i=desktop&pf_rd_s=desktop-6&pd_rd_w=ePtC5&pd_rd_r=b0e0a151-9345-4d4f-b08e-d0221d0dce02&pd_rd_wg=FmKZm&pd_rd_i=B0CGND2MC2&th=1&psc=1">            <img src="https://images-na.ssl-images-amazon.com/images/I/61W0mf4jCzL._SX240_QL100_AC_SCLZZZZZZZ_.jpg" alt="" width="200vw" height="200px">
+            </a>
+            <div class="pera">
+                <p class="tectcenterdis">Up to 29% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+<a href="https://www.amazon.in/dp/B08V8D984N/ref=va_live_carousel?pf_rd_r=PM7B0BFAP4Z693T3RCFK&pf_rd_p=3555962c-8da1-4126-859a-d0272a50490c&pf_rd_m=A21TJRUUN4KGV&pf_rd_t=Gateway&pf_rd_i=desktop&pf_rd_s=desktop-6&pd_rd_w=ePtC5&pd_rd_r=b0e0a151-9345-4d4f-b08e-d0221d0dce02&pd_rd_wg=FmKZm&pd_rd_i=B08V8D984N&th=1&psc=1">            <img src="https://images-na.ssl-images-amazon.com/images/I/41bOfmBlziL._SX240_QL100_AC_SCLZZZZZZZ_.jpg" alt="" width="200vw" height="200px">
+</a>            <div class="pera">
+                <p class="tectcenterdis">Up to 79% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="heading">
+            <h3>Best Sellers in Sports, Fitness & Outdoors</h3>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <a href="https://www.amazon.in/Boldfit-Wrist-Supporter-Women-Straps/dp/B0B8RR5VQF/?_encoding=UTF8&pd_rd_w=GKqjR&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=DZJ3M64L8DPFJXR4JWIC&pd_rd_wg=FmKZm&pd_rd_r=b0e0a151-9345-4d4f-b08e-d0221d0dce02&ref_=pd_gw_crs_zg_bs_1984443031">                <img src="https://m.media-amazon.com/images/I/71efZuOyE2L._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+                </a>
+            </div>
+            <div class="pera">
+                <p class="tectcenterdis">Up to 49% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <a href="https://www.amazon.in/Boldfit-Polyvinyl-Chloride-Skipping-Adjustable/dp/B0B5N956P2/?_encoding=UTF8&pd_rd_w=GKqjR&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=PM7B0BFAP4Z693T3RCFK&pd_rd_wg=FmKZm&pd_rd_r=b0e0a151-9345-4d4f-b08e-d0221d0dce02&ref_=pd_gw_crs_zg_bs_1984443031">            <img src="https://m.media-amazon.com/images/I/71l2-gWOnpL._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            </a>
+            <div class="pera">
+                <p class="tectcenterdis">Up to 89% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <a href="https://www.amazon.in/Boldfit-Resistance-Band-Stretching-Resistances/dp/B08H8KD72Q/?_encoding=UTF8&pd_rd_w=GKqjR&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=PM7B0BFAP4Z693T3RCFK&pd_rd_wg=FmKZm&pd_rd_r=b0e0a151-9345-4d4f-b08e-d0221d0dce02&ref_=pd_gw_crs_zg_bs_1984443031">            <img src="https://m.media-amazon.com/images/I/61Mg9eVK0HL._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            </a>
+            <div class="pera">
+                <p class="tectcenterdis">Up to 39% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <a href="https://www.amazon.in/Lifelong-Dumbbells-Equipment-Exercise-Warranty/dp/B09W5PSTBP/?_encoding=UTF8&pd_rd_w=GKqjR&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=PM7B0BFAP4Z693T3RCFK&pd_rd_wg=FmKZm&pd_rd_r=b0e0a151-9345-4d4f-b08e-d0221d0dce02&ref_=pd_gw_crs_zg_bs_1984443031">            <img src="https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            </a>
+            <div class="pera">
+                <p class="tectcenterdis">Up to 749% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <a href="https://www.amazon.in/Boldfit-Adjustable-Strengthener-Exercise-Equipment/dp/B0B77X44MX/?_encoding=UTF8&pd_rd_w=GKqjR&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=PM7B0BFAP4Z693T3RCFK&pd_rd_wg=FmKZm&pd_rd_r=b0e0a151-9345-4d4f-b08e-d0221d0dce02&ref_=pd_gw_crs_zg_bs_1984443031">            <img src="https://m.media-amazon.com/images/I/61Av1lptLkL._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            </a>
+            <div class="pera">
+                <p class="tectcenterdis">Up to 759% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+            </div>
+        </div>
+
+        
+
+        
+
+        </div>
+
+
+
+
+
+
+        <div class="slide">
+            <img src="../Screenshot 2024-02-21 170743.png" alt="" width="1520px">
+        </div>
+
+
+        <div class="heading">
+            <h3>Up to 40% off | Furniture curated by stores near you</h3>
+        </div>
+        <div class="container">
+            
+        <div class="box">
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/I/71nBba6boqL._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            </div>
+            <div class="pera">
+                <p class="tectcenterdis">Up to 75% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <img src="https://m.media-amazon.com/images/I/51WE-U0Gf3L._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            <div class="pera">
+                <p class="tectcenterdis">Up to 39% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+</nav>
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <img src="https://m.media-amazon.com/images/I/61SA17WGPPL._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            <div class="pera">
+                <p class="tectcenterdis">Up to 19% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <img src="https://m.media-amazon.com/images/I/61zw2b2KNhL._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            <div class="pera">
+                <p class="tectcenterdis">Up to 29% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <img src="https://m.media-amazon.com/images/I/71QFx-Hs4nL._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            <div class="pera">
+                <p class="tectcenterdis">Up to 79% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="heading">
+            <h3>Up to 70% off | Top picks by stores near you</h3>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/I/9157DuPO5+L._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            </div>
+            <div class="pera">
+                <p class="tectcenterdis">Up to 49% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <img src="https://m.media-amazon.com/images/I/51KK0zD7dkL._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            <div class="pera">
+                <p class="tectcenterdis">Up to 89% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <img src="https://m.media-amazon.com/images/I/51CMTkZZ5ZL._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            <div class="pera">
+                <p class="tectcenterdis">Up to 39% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <img src="https://m.media-amazon.com/images/I/513IMlfWoDL._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            <div class="pera">
+                <p class="tectcenterdis">Up to 749% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+
+
+            </div>
+        </div>
+        <div class="box">
+            <!-- <h3>Todays Deals</h3> -->
+            <img src="https://m.media-amazon.com/images/I/513ycjeoD+L._AC_SY200_.jpg" alt="" width="200vw" height="200px">
+            <div class="pera">
+                <p class="tectcenterdis">Up to 759% off</p>
+                <p class="tectcenterdiss">Limited time deal </p>
+                <p class="tectcenterdiss"> Best Offers on Storite</p>
+            </div>
+        </div>
+
+        
+
+        
+
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="footer1">
+            back to top
+        </div>
+        <div class="footer">
+            <div class="footer2">
+                <b> Get to Know Us</b>
+                <p>About Us
+                </p>
+                <p>Careers
+                </p>
+                <p>Press Releases</p>
+                <p>Amazon Science</p>
+
+            </div>
+            <div class="footer2">
+                <b> Connect with Us</b>
+                <p>Facebook
+                </p>
+                <p>Twitter
+                </p>
+                <p>Instagram</p>
+            </div>
+            <div class="footer2">
+                <b> Make Money with Us</b>
+                <p>Sell on Amazon
+                </p>
+                <p>Sell under Amazon Accelerator
+                </p>
+                <p>Protect and Build Your Brand</p>
+                <p>Amazon Global Selling</p>
+                <p>Become an Affiliate</p>
+                <p>Fulfilment by Amazon</p>
+                <p>Advertise Your Products</p>
+                <p>Amazon Pay on Merchants</p>
+
+
+            </div>
+
+            <div class="footer2">
+                <b> Let Us Help You</b>
+                <p>COVID-19 and Amazon
+                </p>
+                <p>Your Account
+                </p>
+                <p>Returns Centre</p>
+                <p>100% Purchase Protection</p>
+                <p>Amazon App Download</p>
+                <p>Help</p>
+
+
+
+            </div>
+        </div>
+        <hr>
+        <div class="footer3">
+      <div class="footer4">
+        <img src="../Screenshot 2024-02-21 171724.png" alt="">
+    </div>
+    <div class="selective">
+        <select name="En" id="">
+            <option value="En">English</option>
+            <option value="En">Hindi</option>
+            <option value="En">Tamil</option>
+        </select>
+    </div>
+
+    </div>
+   
+      </div>
+    </footer>
+</body>
+
+</html>
